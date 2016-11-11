@@ -8,6 +8,7 @@
     "doc": "doc",
     "test": "tests"
   },
+  "main": "custom-serve.js",
   "repository": "",
   "scripts": {
     "build": "ember build",
@@ -42,5 +43,12 @@
   "engines": {
     "node": ">= 4.6.2"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-cluster": "0.0.4",
+    "fastboot-express-middleware": "^1.0.0-rc.4",
+    "heapdump": "^0.3.7",
+    "memwatch-next": "^0.3.0"
+  }
 }
