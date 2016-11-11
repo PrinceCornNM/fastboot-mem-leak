@@ -1,0 +1,10 @@
+h1 title
+=link-to "index"
+  | LINK
+=link-to "index"
+  | LINK
+=link-to "index"
+  | LINK
+=link-to "index"
+  | LINK
+= outlet
